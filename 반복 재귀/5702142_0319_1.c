@@ -31,8 +31,10 @@ int main()
     end = clock();
     time_rec = (double)(end - start) / CLOCKS_PER_SEC;
 
-    printf("% f,% f \n", result_iter, time_iter);
-    printf("% f,% f \n", result_rec, time_rec);
+    printf("Factorial Iterative Result: %f\n", result_iter);
+    printf("Time: %f \n", time_iter);
 
+    printf("Factorial Recursive Result: %f\n", result_rec);
+    printf("Time: %f \n", time_rec);
     return 0;
 }
